@@ -20,16 +20,16 @@ h2{
 	margin: 0 !important;
 }
 .item-contact{
-	background:  rgba(217,91,62,1);
+	background: rgba(217,91,62,1);
 }
 .item-meta{
 	background: #b70606;
 	color: #fff;
-	margin: 0 -5%;
 	padding: 0;
 	text-align: center;
 	font-size: 24px;
 	padding: 0.5em 0 .25em 0;
+	margin-top: 0.8em;
 }
 .item-meta>p{
 	display: inline-block;
@@ -39,8 +39,7 @@ h2{
 .item-description{
 	color: #000;
 	font-size: 18px;
-	height: 20em;
-	line-height: 2;
+	line-height: 1.6;
 	padding: 2em 0 0 0;
 	text-align: justify;
 }
@@ -51,7 +50,7 @@ h2{
 }
 .item-address{
 	background: #b70606;
-	margin-top: -24% !important;
+	/*margin-top: -24% !important;*/ //////
 }
 .item-address, .item-contact{
 	margin-top: 2em;
@@ -74,15 +73,13 @@ h2{
 	text-align: center;
 	margin-left: 2em;
 }
-.map-container>img{
-	height: 100%;
-	width: 100%;
-}
 .map-top{
 	height: 50%;
 	float: left;
 }
-
+.top-space{
+	margin-top: 4em;
+}
 @media only screen
 and (min-device-width:768px)
 and (max-device-width:992px){
