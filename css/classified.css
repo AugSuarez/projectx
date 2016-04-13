@@ -1,0 +1,117 @@
+body{
+	background-image: url("img/IMG_0955a.JPG") !important;
+	padding: 0;
+}
+h2{
+	font-size: 24px !important; 
+	margin: 0.5em 0 0.5em 1.3em !important;
+	text-align: left;
+}
+.wrapper{
+	background: rgba(230,230,230,.9);
+}
+
+
+.directions-inner{
+	background: #b70606;
+	margin-top: 2em;
+}
+.directions-inner>.row{
+	margin: 0 !important;
+}
+.item-contact{
+	background:  rgba(217,91,62,1);
+}
+.item-meta{
+	background: #b70606;
+	color: #fff;
+	margin: 0 -5%;
+	padding: 0;
+	text-align: center;
+	font-size: 24px;
+	padding: 0.5em 0 .25em 0;
+}
+.item-meta>p{
+	display: inline-block;
+	width: 40%;
+	margin: auto;
+}
+.item-description{
+	color: #000;
+	font-size: 18px;
+	height: 20em;
+	line-height: 2;
+	padding: 2em 0 0 0;
+	text-align: justify;
+}
+.item-description>p{
+	margin-left: 1em;
+	margin-right: 1em;
+
+}
+.item-address{
+	background: #b70606;
+	margin-top: -24% !important;
+}
+.item-address, .item-contact{
+	margin-top: 2em;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	line-height: 2;
+	padding: 0.75em 0 0.75em 0;
+	margin-bottom: 2.6em;
+	border-bottom-left-radius: 58px;
+	border-top-right-radius: 58px;
+}
+.map-container{
+	/*Will not actually have a height, its height will be defined by the contained map*/
+    float: right;
+    width: 40%;
+    clear: both;
+	border: 1px solid black;
+	height: 100%;
+	text-align: center;
+	margin-left: 2em;
+}
+.map-container>img{
+	height: 100%;
+	width: 100%;
+}
+.map-top{
+	height: 50%;
+	float: left;
+}
+
+@media only screen
+and (min-device-width:768px)
+and (max-device-width:992px){
+	.item-address{
+		margin-top: 5% !important;
+		clear: both;
+	}
+}
+@media only screen
+and (min-device-width:411px)
+and (max-device-width:767px){
+	.item-address{
+		margin-top: 5% !important;
+		clear: both;
+	}
+}
+@media only screen
+and (min-device-width:360px)
+and (max-device-width:410px){
+	.item-address{
+		margin-top: 5% !important;
+		clear: both;
+	}
+}
+@media only screen
+and (min-device-width:0px)
+and (max-device-width:359px){
+	.item-address{
+		margin-top: 5% !important;
+		clear: both;
+	}
+}
